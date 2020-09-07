@@ -20,7 +20,8 @@ create table loginUsuario (
 	idUsuario int primary key,
 	login varchar(30),
 	senha varchar(30),
-	check (Nível_de_acesso = '1' or Nível_de_acesso ='2'),
+    Nivel_de_acesso int,
+	check (Nivel_de_acesso = '1' or Nivel_de_acesso ='2'),
     fk_idUsuarioInfo int,
 		foreign key (fk_idUsuarioInfo) references tbUsuarioInfo (idUsuarioInfo)
 );
