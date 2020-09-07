@@ -16,6 +16,8 @@ create table tbUsuarioInfo (
 	CPF char(11),
 	telefone int
 );
+
+-- blablabla --
 create table loginUsuario (
 	idUsuario int primary key,
 	login varchar(30),
