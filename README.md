@@ -1,9 +1,11 @@
 # Projeto-PI
 
-Documento de Contexto de Negocio:
+-- DOCUMENTAÇÃO --
+
+Contexto de Negocio:
 https://docs.google.com/document/d/1cNIFu2jOb0FqwyjzQVpA48AiBDxQ39tviBvBGlcJtbg/edit
 
-Documento de Justificava de Projeto:
+Justificava de Projeto:
 https://docs.google.com/document/d/1Um8eTHvZqrhCScDSDB5Pnv4fMOQqGV7JsUr0tZCWyYc/edit?usp=sharing
 
 Backlog do Projeto:
@@ -13,4 +15,8 @@ Funcionamento ‘projeto_pi.sql’:
 https://docs.google.com/document/d/1UVpTrdFmdTs3g5pCH66okQK89iIRkiHVC8CkuAhX4WA/edit
 
 
-INSTALAÇÃO DE AMBIENTE:
+-- INSTALAÇÃO DE AMBIENTE --
+
+Windows:
+
+Linux:
