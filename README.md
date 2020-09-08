@@ -8,3 +8,6 @@ https://docs.google.com/document/d/1Um8eTHvZqrhCScDSDB5Pnv4fMOQqGV7JsUr0tZCWyYc/
 
 Backlog do Projeto:
 https://docs.google.com/spreadsheets/d/1RjXFCrr4QfKCtHd9M4fEw8YLTynKsWF2TxqfqRoHcZo/edit?usp=sharing
+
+Funcionamento ‘projeto_pi.sql’:
+https://docs.google.com/document/d/1UVpTrdFmdTs3g5pCH66okQK89iIRkiHVC8CkuAhX4WA/edit
