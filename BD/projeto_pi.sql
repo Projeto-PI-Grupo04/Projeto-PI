@@ -1,5 +1,5 @@
-create database BancoDados;
-use BancoDados;
+create database BD_Projeto;
+use BD_Projeto;
 
 create table tbOperador (
 	idOperador int primary key auto_increment,
@@ -14,25 +14,20 @@ create table tbLoginOperador (
     nivelAcesso int,
 	check (nivelAcesso = '1' or nivelAcesso ='2'),
     fk_idOperador int,
-		foreign key (fk_idOperador) references tbOperador(idOperador)
+	foreign key (fk_idOperador) references tbOperador(idOperador)
 );
 
 create table tbFuncionario (
 	idFuncionario int primary key auto_increment,
     nomeFuncionario varchar(40),
-    dataNascimentoFuncionario date
-);
-
-create table tbFoneUsuario (
-	idFoneUsuario int primary key auto_increment,
-    numFoneUsuario int,
-    fk_idFuncionario int,
-		foreign key (fk_idFuncionario) references tbFuncionario(idFuncionario)
+    dataNascimentoFuncionario date,
+    foneResidencial char(10),
+    foneCelular char(11)
 );
 
 create table tbTemperatura (
 	idTemperatura int primary key auto_increment,
-	Graus decimal,
+	Graus float,
 	horario time,
 	Dia date,
     fk_idFuncionario int,
