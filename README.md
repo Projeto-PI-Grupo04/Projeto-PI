@@ -5,7 +5,7 @@
 Contexto de Negocio/Justificava de Projeto:
 https://docs.google.com/document/d/1cNIFu2jOb0FqwyjzQVpA48AiBDxQ39tviBvBGlcJtbg/edit#
 
-Backlog do Projeto:
+Backlog do Projeto (TI):
 https://docs.google.com/spreadsheets/d/1RjXFCrr4QfKCtHd9M4fEw8YLTynKsWF2TxqfqRoHcZo/edit?usp=sharing
 
 Funcionamento ‘projeto_pi.sql’:
