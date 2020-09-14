@@ -21,6 +21,9 @@ https://docs.google.com/presentation/d/1UlbipJo5RD22UXyH-911t3fmy_Gr2SI3gLlMd_3t
 Protótipo do Site Institucional (AdobeXD):
 https://xd.adobe.com/view/ea946489-4e5c-4e54-750f-c198973f2ff1-9ca5/
 
+Protótipo do Sistema (Parte do Operador):
+https://xd.adobe.com/view/b9ed06da-5921-4066-5c34-15ddac978b3e-cfdc/
+
 <h2> -- INSTALAÇÃO DE AMBIENTE NODE -- </h2>
 
 <h3> Windows: </h3>
