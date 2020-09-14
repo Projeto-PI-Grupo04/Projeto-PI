@@ -18,17 +18,15 @@
 <body>
 	<section>
 		<h2>Dados do funcionário: </h2>
-		<div style="float: left; width: 15%;"><h3>Nome:</h3>
+		<div style="float: left; width: 20%;"><h3>Nome:</h3>
 			<h4>Funcionario 1</h4></div>
-		<div style="float: left; width: 15%"><h3>CPF:</h3>
+		<div style="float: left; width: 20%"><h3>CPF:</h3>
 			<h4>111.111.111-11</h4></div>
-		<div style="float: left; width: 15%"><h3>Nivel de acesso:</h3>
-			<h4>02</h4></div>
-		<div style="float: left; width: 15%"><h3>Status:</h3>
-			<h4>Aumentando</h4></div>
-		<div style="float: left; width: 15%"><h3>Média:</h3>
+		<div style="float: left; width: 20%"><h3>Status:</h3>
+			<h4>Instável</h4></div>
+		<div style="float: left; width: 20%"><h3>Média:</h3>
 			 <h4><label id='average'>0.00</label></h4></div>
-		<div style="float: left; width: 15%"><h3>Média Hora:</h3>
+		<div style="float: left; width: 20%"><h3>Média Hora:</h3>
 			<h4><label id='averageHour'>0.00</label></h4></div>
 	</section>
 	<section style="width:100%">
@@ -46,8 +44,8 @@
 						datasets: [{
 							label: "Temperatura x Horas",
 							type: 'line',
-							backgroundColor: ['rgba(255, 99, 0, 0.2)'], //altera a cor de fundo do gráfico
-							borderColor: ['#ff3232'], // altera a cor da linha do gráfico
+							backgroundColor: ['rgba(46, 196, 182, 0.2)'], //altera a cor de fundo do gráfico
+							borderColor: ['#2EC4B6'], // altera a cor da linha do gráfico
 						}]
 					},
 					options: {
@@ -63,11 +61,11 @@
 							yAxes: [{
 								scaleLabel: {
 									display: true,
-									labelString: 'Temperature'
+									labelString: 'Temperatura'
 								},
 								ticks: {
 									beginAtZero: false,
-									suggestedMin: 20,
+									suggestedMin: 34,
 									suggestedMax: 42
 								}
 							}]
@@ -132,7 +130,7 @@
 				setInterval(() => {
 					sendTemperature();
 					get_data();
-				}, 1000);
+				}, 2000);
 
 			</script>
 </body>
