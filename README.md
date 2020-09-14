@@ -22,7 +22,7 @@ Protótipo do Site Institucional (AdobeXD):
 https://xd.adobe.com/view/ea946489-4e5c-4e54-750f-c198973f2ff1-9ca5/
 
 Protótipo do Sistema (Parte do Operador):
-https://xd.adobe.com/view/b9ed06da-5921-4066-5c34-15ddac978b3e-cfdc/
+https://xd.adobe.com/view/6cf90e76-b46d-4823-5524-c2d8c64c5629-1ac8/
 
 Protótipo do Sistema (Parte do usuário):
 https://xd.adobe.com/view/7a8e1c17-c066-4dee-4d84-8e7ba98aeb50-0cbf/
