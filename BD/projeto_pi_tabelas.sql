@@ -6,7 +6,7 @@ create table tbOperador (
 	nomeOperador varchar(40),
 	cpfOperador char(11)    
 );
--- Para o operario sera dado um id e ele ira informar Seu nome e CPF 
+-- Para o operario sera dado um id e ele ira informar Seu nome e CPF sendo CPF obrigatorio 11 numeros
 create table tbLoginOperador (
 	idLoginOperador int primary key auto_increment,
 	emailOperador varchar(30),
