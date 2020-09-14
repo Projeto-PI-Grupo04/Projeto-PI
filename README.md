@@ -27,22 +27,22 @@ https://xd.adobe.com/view/ea946489-4e5c-4e54-750f-c198973f2ff1-9ca5/
 <code> sudo apt update && apt install build-essential libssl-dev </code>
 
 2) Instalando NVM (Gerenciador de Versões do Node) <br>
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
+<code> curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash </code>
 
 3) Checando versão do NVM <br>
-nvm --version
+<code> nvm --version </code>
 
 4) Verificando versões disponíveis do NodeJS via NVM <br>
-nvm ls-remote
+<code> nvm ls-remote </code>
 
 5) Instalando NodeJS versão LTS e a selecionando para uso <br>
-nvm install --lts && nvm use --lts
+<code> nvm install --lts && nvm use --lts </code>
 
 6) Checando versão do NPM (Gerenciador de Pacotes Node) e do NodeJS <br>
-npm --version ; node -v
+<code> npm --version ; node -v </code>
 
 7) Atualizando versão do NPM para LTS <br>
-npm install npm@latest
+<code> npm install npm@latest </code>
 
 
 --
