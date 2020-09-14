@@ -1,4 +1,4 @@
-<h1 style=" color: #20A4F3"> Health Analytics </h1>
+<h1 style=" color: rgb(32, 164, 243)"> Health Analytics </h1>
 
 ![imagem Health Analytics]
 (https://github.com/Projeto-PI-Grupo04/Projeto-PI/blob/master/Algoritimo/logo.png)
