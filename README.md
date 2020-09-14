@@ -1,4 +1,8 @@
-<h1 style=" color: rgb(32, 164, 243);"> Health Analytics </h1>
+<h1> Health Analytics </h1>
+
+<a href="https://imgur.com/OSNHwn7.png">
+  <img src="https://imgur.com/OSNHwn7.png" />
+</a>
 
 <h2> -- DOCUMENTAÇÃO -- </h2>
 
