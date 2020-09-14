@@ -8,7 +8,7 @@ https://docs.google.com/document/d/1cNIFu2jOb0FqwyjzQVpA48AiBDxQ39tviBvBGlcJtbg/
 Backlog do Projeto (TI):
 https://docs.google.com/spreadsheets/d/1RjXFCrr4QfKCtHd9M4fEw8YLTynKsWF2TxqfqRoHcZo/edit?usp=sharing
 
-Funcionamento ‘projeto_pi.sql’:
+Funcionamento ’Banco de Dados’:
 https://docs.google.com/document/d/1UVpTrdFmdTs3g5pCH66okQK89iIRkiHVC8CkuAhX4WA/edit
 
 Power Point do Projeto:
