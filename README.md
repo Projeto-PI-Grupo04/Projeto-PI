@@ -27,12 +27,13 @@ https://xd.adobe.com/view/6cf90e76-b46d-4823-5524-c2d8c64c5629-1ac8/
 Protótipo do Sistema (Parte do usuário):
 https://xd.adobe.com/view/7a8e1c17-c066-4dee-4d84-8e7ba98aeb50-0cbf/
 
-<h2> -- INSTALAÇÃO DE AMBIENTE NODE -- </h2>
+<h2> -- INSTALAÇÃO DE AMBIENTE NODEJS + API -- </h2>
 
 <h3> Windows: </h3>
 
 <h3> Linux: </h3>
 
+NodeJS
 1) Atualizando lista de pacotes e instalando dependências.<br>
 <code> sudo apt update && apt install build-essential libssl-dev </code>
 
@@ -54,5 +55,14 @@ https://xd.adobe.com/view/7a8e1c17-c066-4dee-4d84-8e7ba98aeb50-0cbf/
 7) Atualizando versão do NPM para LTS <br>
 <code> npm install npm@latest </code>
 
+API
+1)  Extraindo conteudo de “NODE4_rev1.zip”<br>
+<code>unzip NODE4_rev1.zip</code>
+
+2) Navegando para dentro do diretório NODE4 (extraido de “NODE4_rev1.zip”)<br>
+<code>cd NODE4/NODE4</code>
+
+3) Abrindo "vscode" no diretório local e iniciando servidor “node”<br>
+<code>code . ; npm start</code>
 
 --
