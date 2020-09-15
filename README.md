@@ -33,7 +33,7 @@ https://xd.adobe.com/view/7a8e1c17-c066-4dee-4d84-8e7ba98aeb50-0cbf/
 
 <h3> Linux: </h3>
 
-NodeJS
+<b>NodeJS</b>
 1) Atualizando lista de pacotes e instalando dependências.<br>
 <code> sudo apt update && apt install build-essential libssl-dev </code>
 
@@ -55,7 +55,7 @@ NodeJS
 7) Atualizando versão do NPM para LTS <br>
 <code> npm install npm@latest </code>
 
-API
+<b>API</b>
 1)  Extraindo conteudo de “NODE4_rev1.zip”<br>
 <code>unzip NODE4_rev1.zip</code>
 
