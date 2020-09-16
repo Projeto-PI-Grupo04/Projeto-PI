@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculo Financeiro</title>
+</head>
+<body>
+    
+    <div class="header">
+
+        <div class="header_container">
+
+            <p> Health Analytics </p>
+            
+        </div>
+
+    </div>
+
+    <div class="container">
+
+        <p> Calculo Financeiro </p>
+
+        <div class="div_input">
+
+            Insira o numero de totens (recomendado 1 totem para 100 funcionarios):
+           <input type="text" id="totem">
+            <button onclick="totens()"> CLICA AQ </button>
+                
+        </div>
+
+        <div id="saida">
+            
+
+        </div>
+
+    </div>
+
+</body>
+</html>
+
+<script>
+
+    function totens() {
+
+        var num_totens = totem.value;
+        var valor_totem = 1000;
+        var lucro;
+
+        var valor_total = num_totens * valor_totem;
+        lucro = 3 * valor_total;
+
+        saida.innerHTML = `Valor investido: ${valor_total} <br> Lucro : ${lucro}`;
+
+    }
+
+</script>
