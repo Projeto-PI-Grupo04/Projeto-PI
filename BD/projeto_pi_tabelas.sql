@@ -31,7 +31,7 @@ create table tbFuncionario (
 
 
 create table tbCartao (
-	idCartao int primary key,
+	idCartao char(6) primary key,
     dataEmissao date,
 	dataExpiracao date,
     fk_idFuncionario int,
