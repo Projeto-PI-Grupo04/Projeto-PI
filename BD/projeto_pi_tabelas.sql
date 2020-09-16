@@ -7,17 +7,19 @@ create table tbOperador (
 	cpfOperador char(11)    
 );
 -- Para o operario sera dado um id e ele ira informar Seu nome e CPF sendo CPF obrigatorio 11 numeros
+
+
 create table tbLoginOperador (
 	idLoginOperador int primary key auto_increment,
 	emailOperador varchar(30),
 	senhaOperador varchar(30),
-    nivelAcesso int,
-	check (nivelAcesso = '1' or nivelAcesso ='2'),
     fk_idOperador int,
 	foreign key (fk_idOperador) references tbOperador(idOperador)
 );
 -- Para login sera dado um id e ele ira informar seu email, senha e seu nivel de acesso
 -- A foreign key ,chave estrangeira, ligara a tbloginoperador com tboperador para conter sua ficha completa
+
+
 create table tbFuncionario (
 	idFuncionario int primary key auto_increment,
     nomeFuncionario varchar(40),
@@ -26,6 +28,18 @@ create table tbFuncionario (
     foneCelular char(11)
 );
 -- Para o funcionario sera dado um id e ele ira informar seu nome, data de nascimento e seu telefone residencial e celular
+
+
+create table tbCartao (
+	idCartao int primary key,
+    dataEmissao date,
+	dataExpiracao date,
+    fk_idFuncionario int,
+	foreign key (fk_idFuncionario) references tbFuncionario (idFuncionario)
+);
+-- Sera usado o cartao para acesso da empresa/totem e ira conferir o idFuncionario no database
+
+
 create table tbTemperatura (
 	idTemperatura int primary key auto_increment,
 	Graus float,
