@@ -27,7 +27,7 @@ https://xd.adobe.com/view/6cf90e76-b46d-4823-5524-c2d8c64c5629-1ac8/
 Protótipo do Sistema (Parte do usuário):
 https://xd.adobe.com/view/7a8e1c17-c066-4dee-4d84-8e7ba98aeb50-0cbf/
 
-<h2> -- INSTALAÇÃO DE AMBIENTE NODEJS + API -- </h2>
+<h2> -- Instalação de ambiente NODEJS + API -- </h2>
 
 <h3> Windows: </h3>
 
