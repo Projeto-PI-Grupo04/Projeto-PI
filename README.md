@@ -4,7 +4,7 @@
   <img src="https://imgur.com/OSNHwn7.png" />
 </a>
 
-<h2> -- DOCUMENTAÇÃO -- </h2>
+<h2> -- Documentação -- </h2>
 
 Contexto de Negocio/Justificava de Projeto:
 https://docs.google.com/document/d/1cNIFu2jOb0FqwyjzQVpA48AiBDxQ39tviBvBGlcJtbg/edit#
