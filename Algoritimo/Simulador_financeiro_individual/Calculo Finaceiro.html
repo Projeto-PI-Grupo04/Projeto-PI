@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo</title>
+</head>
+<body>
+     <h1>Custo total</h1>
+
+    <input id="Valor_totem" type="text" placeholder="Valor do totem"><br>   
+
+    <input id="Qntd_totem" type="text" placeholder="Quantidades de totens"> <br>
+
+    <input id="Desconto_totem" type="text" placeholder="Desconto"> 
+
+    <button onclick="calcule()" style="background: cadetblue; color: white;" >Calcular</button>
+
+    <div id="div_msg"></div>
+
+</body>
+
+</html>
+
+
+<script>
+        
+function calcule() {
+
+        
+        var Valor_totem = document.getElementById("Valor_totem").value;
+
+        var Quantidade_totens = document.getElementById("Qntd_totem").value;
+
+        var Desconto = document.getElementById("Desconto_totem").value;
+
+        var valor_total = (Valor_totem * Quantidade_totens) - Desconto
+        
+        div_msg.innerHTML = `Seu custo será:${valor_total}` 
+
+        
+}
+
+</script>
