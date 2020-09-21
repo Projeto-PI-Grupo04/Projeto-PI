@@ -1,5 +1,5 @@
-create database BD_Projeto;
-use BD_Projeto;
+create database BD_HealthAnalytics;
+use BD_HealthAnalytics;
 
 create table tbOperador (
 	idOperador int primary key auto_increment,
@@ -50,3 +50,4 @@ create table tbTemperatura (
 );
 -- Para temperatura sera dado um id e sera pego do sensor os graus, o horario e o dia
 -- A chave estrangeira ira ligar a temparatura ao funcionario, informando a quem pertence a temperatura
+

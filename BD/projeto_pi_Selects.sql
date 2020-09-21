@@ -12,4 +12,5 @@ select * from tbtemperatura;
 -- sera mostrado a tabela tbtemperatura com os dados inseridos 
 select * from tbtemperatura,tbfuncionario where fk_idfuncionario = idfuncionario;
 -- sera mostrado a tabela tbtemperatura e a tdfuncionario com os dados inseridos sincronizando fk_idfuncionario com idfuncionario
-
+select * from tbcartao,tbfuncionario where fk_idfuncionario = idfuncionario;
+-- sera mostrado a tabela tbcartao e a tdfuncionario com os dados inseridos sincronizando fk_idfuncionario com idfuncionario
