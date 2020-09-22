@@ -29,8 +29,6 @@ https://xd.adobe.com/view/be215bb3-2bdf-4539-63ea-d9d0a8368672-c810/
 
 <h2> -- Instalação de ambiente NODEJS + API -- </h2>
 
-<h3> Windows: </h3>
-
 <h3> Linux: </h3>
 
 <b>NodeJS</b>
