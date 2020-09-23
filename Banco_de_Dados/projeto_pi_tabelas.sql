@@ -51,3 +51,10 @@ create table tbTemperatura (
 -- Para temperatura sera dado um id e sera pego do sensor os graus, o horario e o dia
 -- A chave estrangeira ira ligar a temparatura ao funcionario, informando a quem pertence a temperatura
 
+create table tbclassificacao(
+	idClassificacao int primary key auto_increment,
+    classificacaoFucionario varchar (20),
+    fk_idFuncionario int,
+		foreign key (fk_idFuncionario) references tbFuncionario(idFuncionario)
+);
+

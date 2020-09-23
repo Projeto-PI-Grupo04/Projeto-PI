@@ -1,4 +1,4 @@
-use BD_Projeto;
+use BD_HealthAnalytics;
 
 select * from tboperador;
 -- sera mostrado a tabela tboperador com os dados inseridos 
@@ -14,3 +14,5 @@ select * from tbtemperatura,tbfuncionario where fk_idfuncionario = idfuncionario
 -- sera mostrado a tabela tbtemperatura e a tdfuncionario com os dados inseridos sincronizando fk_idfuncionario com idfuncionario
 select * from tbcartao,tbfuncionario where fk_idfuncionario = idfuncionario;
 -- sera mostrado a tabela tbcartao e a tdfuncionario com os dados inseridos sincronizando fk_idfuncionario com idfuncionario
+select * from tbclassificacao, tbfuncionario where fk_idfuncionario = idfuncionario;
+-- sera mostrado a tabela tbclassificacao e a tdfuncionario com os dados inseridos sincronizando fk_idfuncionario com idfuncionario

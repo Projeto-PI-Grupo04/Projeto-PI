@@ -1,4 +1,4 @@
-use BD_Projeto;
+use BD_HealthAnalytics;
 
 insert into tbOperador values (null,'operador1','66666666666'),
 							  (null,'operador2','77777777777');
@@ -21,3 +21,5 @@ insert into tbtemperatura values (null,37.5,'10:20:00','2020-09-14',1),
 insert into tbCartao values ('000001', '2020/09/16', '2021/03/15', 1),
 							('000002', '2020/08/22', '2021/03/21', 2);
 -- foi inserido na tabela tbcartao os valores exigidos, contendo chave estrangeira
+
+insert into tbclassificacao values (null, 'Instável',1);
