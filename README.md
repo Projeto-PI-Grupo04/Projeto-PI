@@ -12,9 +12,6 @@ https://docs.google.com/document/d/1cNIFu2jOb0FqwyjzQVpA48AiBDxQ39tviBvBGlcJtbg/
 Backlog do Projeto (TI):
 https://github.com/Projeto-PI-Grupo04/Projeto-PI/projects/2
 
-Funcionamento ’Banco de Dados’:
-https://docs.google.com/document/d/1UVpTrdFmdTs3g5pCH66okQK89iIRkiHVC8CkuAhX4WA/edit
-
 Power Point do Projeto:
 https://docs.google.com/presentation/d/1UlbipJo5RD22UXyH-911t3fmy_Gr2SI3gLlMd_3tf4E/edit?usp=sharing
 
