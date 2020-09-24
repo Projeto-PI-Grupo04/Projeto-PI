@@ -30,10 +30,7 @@
             <h3>Média:</h3>
             <h4><label id='average'>0.00</label></h4>
         </div>
-        <div style="float: left; width: 20%">
-            <h3>Média Hora:</h3>
-            <h4><label id='averageHour'>0.00</label></h4>
-        </div>
+
     </section>
     <section style="width:100%">
         <canvas id="chart"></canvas>
@@ -47,7 +44,7 @@
                     type: 'line', //alteração do tipo de gráfico (barra, linhas, pizza...)
                     data: {
                         datasets: [{
-                            label: "Temperatura x Horas",
+                            label: "Temperatura x Dia",
                             type: 'line',
                             backgroundColor: ['rgba(46, 196, 182, 0.2)'], //altera a cor de fundo do gráfico
                             borderColor: ['#2EC4B6'], // altera a cor da linha do gráfico
