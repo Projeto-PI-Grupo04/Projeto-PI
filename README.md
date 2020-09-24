@@ -55,10 +55,10 @@ https://xd.adobe.com/view/be215bb3-2bdf-4539-63ea-d9d0a8368672-c810/
 
 <b>API</b>
 1)  Extraindo conteudo de “NODE4_rev1.zip”<br>
-<code>unzip NODE4_rev1.zip</code>
+<code>unzip NODE4.zip</code>
 
 2) Navegando para dentro do diretório NODE4 (extraido de “NODE4_rev1.zip”)<br>
-<code>cd NODE4/NODE4</code>
+<code>cd NODE4/</code>
 
 3) Abrindo "vscode" no diretório local e iniciando servidor “node”<br>
 <code>code . ; npm start</code>
