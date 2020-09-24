@@ -1,7 +1,7 @@
 function calcular() {
 
     var num_funcionarios = document.getElementById('num_funcionarios').value;
-    var limite_totem = 100;
+    var limite_totem = 50;
     var valor_servico = 3500;
     var manutencao = 200;
     var taxa_instalacao = 500;
@@ -22,7 +22,7 @@ function calcular() {
     // a cada 1 dolar investido na saude do funcionario, podem ser retornados ate 4 dolares. 300%. pior situação 235%.
     var lucro = valor_servico * 2.35;
     //funcionarios doentes acabam gerando a despesa de 2 funcionarios
-    var possiveis_perdas = num_funcionarios * salario_minimo;
+    var possiveis_perdas = num_funcionarios * (salario_minimo * 2);
 
     document.getElementById('investimento_inicial').value = investimento_inicial.toLocaleString("pt-BR", { minimumFractionDigits: 2, style: 'currency', currency: 'BRL' });
     document.getElementById('investimento_mensal').value = investimento_mensal.toLocaleString("pt-BR", { minimumFractionDigits: 2, style: 'currency', currency: 'BRL' });;
