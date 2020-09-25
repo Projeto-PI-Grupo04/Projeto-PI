@@ -20,7 +20,7 @@ function calcular() {
     var investimento_inicial = (num_totens * valor_servico) + taxa_instalacao;
     var investimento_mensal = manutencao * num_totens;
     // a cada 1 dolar investido na saude do funcionario, podem ser retornados ate 4 dolares. 300%. pior situação 235%.
-    var lucro = valor_servico * 2.35;
+    var lucro = investimento_inicial * 2.35;
     //funcionarios doentes acabam gerando a despesa de 2 funcionarios
     var possiveis_perdas = num_funcionarios * (salario_minimo * 2);
 
