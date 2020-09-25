@@ -1,20 +1,20 @@
 use BD_HealthAnalytics;
 
-select * from tboperador;
+select * from tbOperador;
 -- sera mostrado a tabela tboperador com os dados inseridos 
-select * from tbloginoperador;
+select * from tbLoginOperador;
 -- sera mostrado a tabela tbloginoperador
-select * from tbloginoperador,tboperador where fk_idoperador = idoperador;
+select * from tbLoginOperador,tbOperador where fk_idOperador = idOperador;
 -- sera mostrado a tabela tboperador e tbloginoperador com os dados inseridos sincronizando a fk_idoperador com idoperador 
-select * from tbfuncionario;              
+select * from tbFuncionario;              
 -- sera mostrado a tabela tbfuncionario com os dados inseridos
-select * from tbcartao;
+select * from tbCartao;
 -- sera mostrado a tabela do cartão
-select * from tbtemperatura;
+select * from tbTemperatura;
 -- sera mostrado a tabela tbtemperatura com os dados inseridos 
-select * from tbtemperatura,tbfuncionario where fk_idfuncionario = idfuncionario;
+select * from tbTemperatura,tbFuncionario where fk_idFuncionario = idFuncionario;
 -- sera mostrado a tabela tbtemperatura e a tdfuncionario com os dados inseridos sincronizando fk_idfuncionario com idfuncionario
-select * from tbcartao,tbfuncionario where fk_idfuncionario = idfuncionario;
+select * from tbCartao,tbFuncionario where fk_idFuncionario = idFuncionario;
 -- sera mostrado a tabela tbcartao e a tdfuncionario com os dados inseridos sincronizando fk_idfuncionario com idfuncionario
-select * from tbclassificacao, tbfuncionario where fk_idfuncionario = idfuncionario;
+select * from tbClassificacao, tbFuncionario where fk_idFuncionario = idFuncionario;
 -- sera mostrado a tabela tbclassificacao e a tdfuncionario com os dados inseridos sincronizando fk_idfuncionario com idfuncionario
