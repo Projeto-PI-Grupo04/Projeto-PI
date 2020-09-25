@@ -22,4 +22,13 @@ insert into tbCartao values ('000001', '2020/09/16', '2021/03/15', 1),
 							('000002', '2020/08/22', '2021/03/21', 2);
 -- foi inserido na tabela tbcartao os valores exigidos, contendo chave estrangeira
 
-insert into tbClassificacao values (null, 'Instável',1);
+insert into tbStatusFuncionario values (null, 'Instável',1)
+								      ,(null, 'Saudável',2);
+                                  
+update tbStatusFuncionario set statusFuncionario = "Não saudável" where idStatusFuncionario = 1; 
+
+
+                                  
+                                  
+                                  
+                                  
