@@ -8,6 +8,8 @@ select * from tbloginoperador,tboperador where fk_idoperador = idoperador;
 -- sera mostrado a tabela tboperador e tbloginoperador com os dados inseridos sincronizando a fk_idoperador com idoperador 
 select * from tbfuncionario;              
 -- sera mostrado a tabela tbfuncionario com os dados inseridos
+select * from tbcartao;
+-- sera mostrado a tabela do cartão
 select * from tbtemperatura;
 -- sera mostrado a tabela tbtemperatura com os dados inseridos 
 select * from tbtemperatura,tbfuncionario where fk_idfuncionario = idfuncionario;
