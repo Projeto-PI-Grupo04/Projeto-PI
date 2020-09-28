@@ -16,5 +16,10 @@ select * from tbTemperatura,tbFuncionario where fk_idFuncionario = idFuncionario
 -- sera mostrado a tabela tbtemperatura e a tdfuncionario com os dados inseridos sincronizando fk_idfuncionario com idfuncionario
 select * from tbCartao,tbFuncionario where fk_idFuncionario = idFuncionario;
 -- sera mostrado a tabela tbcartao e a tdfuncionario com os dados inseridos sincronizando fk_idfuncionario com idfuncionario
-select * from tbClassificacao, tbFuncionario where fk_idFuncionario = idFuncionario;
+select * from tbStatusFuncionario, tbFuncionario where fk_idFuncionario = idFuncionario;
 -- sera mostrado a tabela tbclassificacao e a tdfuncionario com os dados inseridos sincronizando fk_idfuncionario com idfuncionario
+
+
+select * from tbStatusFuncionario, tbFuncionario where fk_idFuncionario = idFuncionario and statusFuncionario like "Saudavel";
+select * from tbStatusFuncionario, tbFuncionario where fk_idFuncionario = idFuncionario order by statusFuncionario desc;
+

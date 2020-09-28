@@ -42,18 +42,19 @@ create table tbCartao (
 
 create table tbTemperatura (
 	idTemperatura int primary key auto_increment,
-	Graus float,
-	horario time,
-	Dia date,
+	temperaturaFuncionario float,
+	horarioMedicao time,
+	diaMedicao date,
     fk_idFuncionario int,
 		foreign key (fk_idFuncionario) references tbFuncionario(idFuncionario)
 );
 -- Para temperatura sera dado um id e sera pego do sensor os graus, o horario e o dia
 -- A chave estrangeira ira ligar a temparatura ao funcionario, informando a quem pertence a temperatura
 
-create table tbClassificacao(
-	idClassificacao int primary key auto_increment,
-    classificacaoFucionario varchar (20),
+create table tbStatusFuncionario(
+	idStatusFuncionario int primary key auto_increment,
+    statusFuncionario varchar (20),
     fk_idFuncionario int,
 		foreign key (fk_idFuncionario) references tbFuncionario(idFuncionario)
 );
+
